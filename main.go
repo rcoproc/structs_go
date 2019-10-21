@@ -18,9 +18,8 @@ func main() {
 
 	var nome person
 
-	nomePointer := &nome
-	nomePointer.updateName("Marco")
-	nomePointer.updateLastname("Oliveira")
+	nome.updateName("Marco Antonio")
+	nome.updateLastname("Oliveira")
 
 	ricardoComercial := person{
 		firstName: "RICARDO",
